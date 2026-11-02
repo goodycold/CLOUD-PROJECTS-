@@ -1,1 +1,10 @@
 
+CREATE DATABASE IF NOT EXISTS project_spirit;
+
+USE project_spirit;
+
+CREATE TABLE IF NOT EXISTS records (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    description VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
