@@ -72,5 +72,3 @@ Screenshots, configuration details, architecture diagrams and test results will 
 
 
 
-<img width="658" height="328" alt="image" src="https://github.com/user-attachments/assets/17217d1a-3751-4523-af04-71556ed1a9cd" />
-.
