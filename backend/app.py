@@ -1,8 +1,17 @@
 
-from flask import Flask, request, jsonify
+import os
+from flask import Flask, request, jsonify, send_from_directory
 from database import get_db_connection
 
-app = Flask(__name__)
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+FRONTEND_DIR = os.path.join(BASE_DIR, "frontend")
+
+app = Flask(__name__, static_folder=FRONTEND_DIR, static_url_path="")
+
+
+@app.route("/")
+def home():
+    return send_from_directory(FRONTEND_DIR, "index.html")
 
 
 @app.route("/api/records", methods=["POST"])
