@@ -70,6 +70,5 @@ The application will be deployed using the following components:
 
 Screenshots, configuration details, architecture diagrams and test results will be added as each implementation phase is completed
 
-<img width="529" height="279" alt="image" src="https://github.com/user-attachments/assets/a1e7b9db-84c0-4796-8753-2d93d4d2b8f8" />
 
 
