@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Spirit | Records Manager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+    <header>
+        <h1>Project Spirit</h1>
+        <p>Simple Three-Tier Web Application</p>
+    </header>
+
+    <main class="container">
+
+        <section class="form-section">
+            <h2>Add New Record</h2>
+
+            <form id="recordForm">
+                <label for="description">Record Description</label>
+                <input
+                    type="text"
+                    id="description"
+                    placeholder="Enter a record description"
+                    required
+                >
+
+                <button type="submit">Save Record</button>
+            </form>
+
+            <p id="message"></p>
+        </section>
+
+        <section class="records-section">
+            <h2>Saved Records</h2>
+            <div id="recordsList">
+                <p>No records available yet.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Project Spirit | AWS Three-Tier Architecture</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
