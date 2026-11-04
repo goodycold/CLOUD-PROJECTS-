@@ -57,8 +57,8 @@ The application will be deployed using the following components:
 
 | Phase | Description | Status |
 |---|---|---|
-| 1 | IAM USER ADMIN CREATION |
-| 2 | Application Development | Completed locally |
+| 1 | Application Development | Completed locally |
+| 2 | IAM USER ADMIN CREATION |
 | 3 | VPC and Networking | Pending |
 | 4 | Security Configuration | Pending |
 | 5 | EC2 Deployment | Pending |
@@ -71,5 +71,6 @@ The application will be deployed using the following components:
 
 Screenshots, configuration details, architecture diagrams and test results will be added as each implementation phase is completed
 
+###  . CREATING AN IAM USER AND ASSIGNING PRIVILEGES
 
-
+     An IAM user in AWS is an entity you create to securely control access to your AWS resources, with its own credentials and permissions.
