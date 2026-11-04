@@ -125,7 +125,8 @@ VPC SUCCESSFULLY CREATED
 
 An S3 bucket is a cloud storage container in AWS used to store, organize, and manage data such as files, images, and backups securely.
 
-<img width="2530" height="923" alt="AdobeExpressPhotos_23d9910234b141d2b0db1f745978655c_CopyEdited" src="https://github.com/user-attachments/assets/ea3ae607-0c92-4c9d-9ce7-51c766c0fc4d" />
+<img width="2535" height="939" alt="AdobeExpressPhotos_df8145b6b2f84f19868a090e5ebb0042_CopyEdited" src="https://github.com/user-attachments/assets/44be9e1b-750c-4c78-be17-547c10a2e0f1" />
+
 
 <img width="2513" height="931" alt="AdobeExpressPhotos_845ad36272fd4e6292b57a8b30506db3_CopyEdited" src="https://github.com/user-attachments/assets/c7ff4a10-909d-423d-860e-6297435aa7b9" />
 
