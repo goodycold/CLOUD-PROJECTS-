@@ -73,4 +73,11 @@ Screenshots, configuration details, architecture diagrams and test results will 
 
 ###  . CREATING AN IAM USER AND ASSIGNING PRIVILEGES
 
-     An IAM user in AWS is an entity you create to securely control access to your AWS resources, with its own credentials and permissions.
+ An IAM user in AWS is an entity you create to securely control access to your AWS resources, with its own credentials and permissions.
+
+Navigate to AIM > users>create user
+
+<img width="2513" height="924" alt="AdobeExpressPhotos_c1afc46a374f4176b1fd9475c6c2ea4c_CopyEdited" src="https://github.com/user-attachments/assets/2a8a25c0-cfe5-41b0-9c26-ed2e22c9aae0" />
+
+
+
