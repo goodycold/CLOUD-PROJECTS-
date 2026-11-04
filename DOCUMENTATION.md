@@ -57,14 +57,15 @@ The application will be deployed using the following components:
 
 | Phase | Description | Status |
 |---|---|---|
-| 1 | Application Development | Completed locally |
-| 2 | VPC and Networking | Pending |
-| 3 | Security Configuration | Pending |
-| 4 | EC2 Deployment | Pending |
-| 5 | RDS Deployment | Pending |
-| 6 | Load Balancing | Pending |
-| 7 | HTTPS and DNS | Pending |
-| 8 | Integration and Testing | Pending |
+| 1 | IAM USER ADMIN CREATION |
+| 2 | Application Development | Completed locally |
+| 3 | VPC and Networking | Pending |
+| 4 | Security Configuration | Pending |
+| 5 | EC2 Deployment | Pending |
+| 6 | RDS Deployment | Pending |
+| 7 | Load Balancing | Pending |
+| 8 | HTTPS and DNS | Pending |
+| 9 | Integration and Testing | Pending |
 
 ### . Deployment Evidence
 
