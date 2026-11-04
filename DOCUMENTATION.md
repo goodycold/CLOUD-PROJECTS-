@@ -156,3 +156,10 @@ Go to AIM> ROLES> CREATE ROLE Use case choose EC2 >next > search for (Amazonec2r
 <img width="2512" height="938" alt="AdobeExpressPhotos_0c06fbf8887446b69b0499e90da7f0b5_CopyEdited" src="https://github.com/user-attachments/assets/2c9805b1-3b8f-481d-a0d6-e031c7797592" />
 
    RENAMING SUBNETS FOR EASY ASSIGNMENT
+<img width="2512" height="932" alt="AdobeExpressPhotos_1811fdf463b74aa680839836f2848651_CopyEdited" src="https://github.com/user-attachments/assets/6814ed79-4aa6-4538-b28b-9e26e824b244" />
+
+
+This would make it easier to assign subnets to run both the app and database.
+
+
+
