@@ -189,8 +189,42 @@ Search EC2> Security Groups> create SG > Fill up the necessary details.
 
 The rules are set so that only the resources running in the VPC can communicate with the database. This SG is for the database.
 
+<img width="2515" height="942" alt="AdobeExpressPhotos_6cfdafa785d74e868244f40588234f27_CopyEdited" src="https://github.com/user-attachments/assets/d5774ea1-787a-4626-8fe2-f62ccb23d6d6" />
+
+<img width="2545" height="951" alt="AdobeExpressPhotos_c9731381ca10436789ec5926aa4a1bb3_CopyEdited" src="https://github.com/user-attachments/assets/154046f5-588c-4902-8f90-e5c395f9426b" />
+
+
+### CREATING DATABASE
+For this project, I will be using MYSQL because it has a free tier. Search RDS> Databases> Create Database>choose MYSQL> Fill up the necessary details.
+
+<img width="2540" height="930" alt="AdobeExpressPhotos_250b7aa89e13400ba36036948bb79f68_CopyEdited" src="https://github.com/user-attachments/assets/d28fbcda-2402-44ad-8958-0c4c9fbc401e" />
+
+
+<img width="2528" height="934" alt="AdobeExpressPhotos_6bb7e5ad00494b5c87ebf3a669f625fb_CopyEdited" src="https://github.com/user-attachments/assets/e7da75f4-c12f-4a49-8d80-8f82de8ce1c4" />
+
+<img width="2523" height="947" alt="AdobeExpressPhotos_719ce64e23144321af108f869a8e7ff9_CopyEdited" src="https://github.com/user-attachments/assets/061cb35f-65dc-4fbf-84e6-813dc139928d" />
+
+<img width="2521" height="930" alt="AdobeExpressPhotos_1219c90d689344ed9ee921c4fae30827_CopyEdited" src="https://github.com/user-attachments/assets/dd00712e-7005-4c7a-9a0f-d5184f71290e" />
+
+<img width="2518" height="930" alt="AdobeExpressPhotos_0d2239b60200458b935972c4c9260f7f_CopyEdited" src="https://github.com/user-attachments/assets/c3929653-5c57-43bb-ae9c-ac3462ebd1cf" />
+
+
+### .  CREATING SECURITY GROUP (Public facing load balancer)
+
+A Security Group for an Internet-Facing Load Balancer allows public web traffic (HTTP/HTTPS) from the internet while controlling which internal servers the traffic can reach.
+
+EC2> SECURITY GROUP> CREATE SECURITY GROUP >
+
+<img width="2540" height="926" alt="AdobeExpressPhotos_cec013febcce41e3b27e9b40ffe9b211_CopyEdited" src="https://github.com/user-attachments/assets/76c9d9d7-7cc9-4a52-b4ed-df42d0b71468" />
+
+### . CREATING SECURITY GROUP (WEB SERVER)
+
+The web server is protected from direct internet access, only accepts traffic from the load balancer and internal VPC resources, and uses the VPC CIDR range to define which internal IPs are allowed.
+
+<img width="2512" height="937" alt="AdobeExpressPhotos_9a15e63480d84c0ab2e7b7d11debc53d_CopyEdited" src="https://github.com/user-attachments/assets/d879b5fe-d540-411e-a204-a66ea6697e03" />
 
 
 
-
+### . CREATING SECURITY GROUP(APPLICATION 
+This Application Security Group allows traffic on port 4000 only from the Load Balancer, keeping the app servers protected from direct internet access.
 
