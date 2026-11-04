@@ -138,3 +138,21 @@ An S3 bucket is a cloud storage container in AWS used to store, organize, and ma
 
 
 The next step is to upload the file needed for the application and database that was cloned from github
+
+Endeavour to remove (readme.md Documentation.md .gitignore and other files that are not needed by application before uploading to s3)
+
+<img width="2528" height="929" alt="AdobeExpressPhotos_c5e69e361d114e2089683c88992a53c3_CopyEdited" src="https://github.com/user-attachments/assets/7d0004a8-961d-4f9d-97ca-b1e7218a9473" />
+
+<img width="2529" height="925" alt="AdobeExpressPhotos_b07f287246ae4d59a6a35ceed05df45b_CopyEdited" src="https://github.com/user-attachments/assets/529c2309-b79e-4b4b-b9ea-540449de3ff7" />
+
+
+
+### .  Create an IAM role to attach to ec2 instance
+
+
+Go to AIM> ROLES> CREATE ROLE Use case choose EC2 >next > search for (Amazonec2roleforssm)> next name of role(alt-3tier) > create role
+
+
+<img width="2512" height="938" alt="AdobeExpressPhotos_0c06fbf8887446b69b0499e90da7f0b5_CopyEdited" src="https://github.com/user-attachments/assets/2c9805b1-3b8f-481d-a0d6-e031c7797592" />
+
+   RENAMING SUBNETS FOR EASY ASSIGNMENT
