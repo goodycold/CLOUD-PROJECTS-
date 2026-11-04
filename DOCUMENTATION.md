@@ -79,5 +79,10 @@ Navigate to AIM > users>create user
 
 <img width="2513" height="924" alt="AdobeExpressPhotos_c1afc46a374f4176b1fd9475c6c2ea4c_CopyEdited" src="https://github.com/user-attachments/assets/2a8a25c0-cfe5-41b0-9c26-ed2e22c9aae0" />
 
+<img width="2526" height="934" alt="AdobeExpressPhotos_f8756325ca6d43ab914ff90e1d582544_CopyEdited" src="https://github.com/user-attachments/assets/7ef6d230-ff35-4050-ab0d-3d47bbcf3c09" />
 
+
+### . CREATING A VPC
+
+A VPC (Virtual Private Cloud) is a securely isolated section of a cloud provider’s network where you can launch and manage resources like servers and databases within your own private virtual network. 
 
