@@ -161,5 +161,36 @@ Go to AIM> ROLES> CREATE ROLE Use case choose EC2 >next > search for (Amazonec2r
 
 This would make it easier to assign subnets to run both the app and database.
 
+###  . DATABASE
+A database is a structured place where information is stored, organized, and managed so it can be easily accessed, updated, and used by applications. For this project, I will be using MYSQL because it has a free tier.
+
+
+### .CREATING A DATABASE SUBNET GROUP
+A DB Subnet Group is a collection of subnets in different Availability Zones that defines where an Amazon RDS database can be deployed within a VPC.
+
+Navigate to RDS> Subnet Groups> Create DB Subnet Groups> fill up the necessary info
+
+<img width="2512" height="934" alt="AdobeExpressPhotos_15fa32c6e34e4737bbb733f128ace6d1_CopyEdited" src="https://github.com/user-attachments/assets/ea7356c1-730d-48f8-9d02-cce79aa5ae93" />
+
+<img width="2523" height="946" alt="AdobeExpressPhotos_e724e4b3252e4d3db39985d53fe3b023_CopyEdited" src="https://github.com/user-attachments/assets/e2fcd82d-d508-4781-9836-40d3d37e51e9" />
+
+<img width="2517" height="938" alt="AdobeExpressPhotos_0191cef54e9c476886b0665ad01f3b64_CopyEdited" src="https://github.com/user-attachments/assets/8f5dabfd-0962-4a35-b337-135ee451c222" />
+
+Subnet Groups successfully created
+
+<img width="2518" height="932" alt="AdobeExpressPhotos_f16ae79820fc49e98cb4d06019eb95d2_CopyEdited" src="https://github.com/user-attachments/assets/4506d040-161e-427f-8a2d-b882a6907d5b" />
+
+<img width="2519" height="936" alt="AdobeExpressPhotos_1a2e66c73fe347ed9cc053922f037a5f_CopyEdited" src="https://github.com/user-attachments/assets/75e16fb0-4b7b-4958-8a54-28af3aabfa02" />
+
+
+### . CREATE SECURITY GROUPS(DATABASE)
+A Security Group acts like a virtual firewall that controls what kind of network traffic is allowed to reach your cloud resources and what can leave them. 
+Search EC2> Security Groups> create SG > Fill up the necessary details.
+
+The rules are set so that only the resources running in the VPC can communicate with the database. This SG is for the database.
+
+
+
+
 
 
