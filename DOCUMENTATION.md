@@ -115,4 +115,20 @@ NAT GATEWAY : In a VPC, a NAT Gateway acts as a bridge that lets private subnet 
 <img width="2524" height="928" alt="AdobeExpressPhotos_cceac0fcba9242959e477ce9baea6fd4_CopyEdited" src="https://github.com/user-attachments/assets/f7cdd99b-e309-4831-b4f8-b8873cd9b9bd" />
 
 
+VPC SUCCESSFULLY CREATED
 
+<img width="2531" height="921" alt="AdobeExpressPhotos_1a5b8659a3e8405289a981d1d4e5f30e_CopyEdited" src="https://github.com/user-attachments/assets/ee97baaa-8476-40b7-9eb1-a1cf21637dc4" />
+
+
+
+### . CREATING AN S3 BUCKET
+
+An S3 bucket is a cloud storage container in AWS used to store, organize, and manage data such as files, images, and backups securely.
+
+<img width="2530" height="923" alt="AdobeExpressPhotos_23d9910234b141d2b0db1f745978655c_CopyEdited" src="https://github.com/user-attachments/assets/ea3ae607-0c92-4c9d-9ce7-51c766c0fc4d" />
+
+<img width="2513" height="931" alt="AdobeExpressPhotos_845ad36272fd4e6292b57a8b30506db3_CopyEdited" src="https://github.com/user-attachments/assets/c7ff4a10-909d-423d-860e-6297435aa7b9" />
+
+<img width="2518" height="928" alt="AdobeExpressPhotos_985039269ebe4d6cb98104f79cd3d400_CopyEdited" src="https://github.com/user-attachments/assets/b26512c4-9d74-4687-81e3-686d5134caef" />
+
+<img width="2519" height="931" alt="AdobeExpressPhotos_7e4f86674ac342e79a0ead96394a9480_CopyEdited" src="https://github.com/user-attachments/assets/3085cf43-866e-4159-bc89-ac5bfb0b19b0" />
