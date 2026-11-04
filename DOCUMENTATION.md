@@ -133,3 +133,8 @@ An S3 bucket is a cloud storage container in AWS used to store, organize, and ma
 <img width="2518" height="928" alt="AdobeExpressPhotos_985039269ebe4d6cb98104f79cd3d400_CopyEdited" src="https://github.com/user-attachments/assets/b26512c4-9d74-4687-81e3-686d5134caef" />
 
 <img width="2519" height="931" alt="AdobeExpressPhotos_7e4f86674ac342e79a0ead96394a9480_CopyEdited" src="https://github.com/user-attachments/assets/3085cf43-866e-4159-bc89-ac5bfb0b19b0" />
+
+<img width="2526" height="916" alt="AdobeExpressPhotos_9e603591578147f0be0e0b0ba9a9f7cb_CopyEdited" src="https://github.com/user-attachments/assets/d815144f-ae5f-4afa-9812-1c306ad2e15e" />
+
+
+The next step is to upload the file needed for the application and database that was cloned from github
