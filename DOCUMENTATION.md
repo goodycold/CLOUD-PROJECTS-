@@ -228,3 +228,23 @@ The web server is protected from direct internet access, only accepts traffic fr
 ### . CREATING SECURITY GROUP(APPLICATION 
 This Application Security Group allows traffic on port 4000 only from the Load Balancer, keeping the app servers protected from direct internet access.
 
+<img width="2518" height="929" alt="AdobeExpressPhotos_570af90ba83643e3ae0a3d89a76d67ba_CopyEdited" src="https://github.com/user-attachments/assets/5f85341c-3198-4609-869c-2c87304c8376" />
+
+### .  CREATING SG (INTERNAL LOAD BALANCER) 
+
+An Internal Load Balancer is a load balancer that distributes traffic only within a private network (VPC) between internal servers, and is not accessible from the public internet. A Security Group (SG) for an Internal Load Balancer allows traffic only from specific internal resources like application servers within the VPC, and blocks access from the public internet.
+
+<img width="2530" height="946" alt="AdobeExpressPhotos_c2460b66e79b4532a468463687fbfce0_CopyEdited" src="https://github.com/user-attachments/assets/295dd26a-43e4-42e7-bcc8-5350375c0326" />
+
+
+UPDATING DATABASE.PY  FILE
+
+After creating the necessary security groups, the next step is to update the databse.py file with the database username, password and endpoint. This would be done by navigating to the file location and opening the file with visual studio code. This would enable the application to connect to the database. After updating the file with vs code, it has to be updated in the S3 bucket as well.
+This would be done by navigating to the location where the file located on S3 bucket and update using drag and drop, then click upload.
+
+<img width="2528" height="928" alt="AdobeExpressPhotos_38f83769eba4421eb6da855909b7ec1a_CopyEdited" src="https://github.com/user-attachments/assets/b4bb5512-3639-4068-b0de-3d3ca2a29a5b" />
+
+### . LAUNCHING AN EC2 INSTANCE
+
+An EC2 instance is a virtual server in AWS that you can use to run applications, host websites, or perform computing tasks just like a physical computer.
+Navigate to EC2 > instance> launch instances > FILL the necessary details
