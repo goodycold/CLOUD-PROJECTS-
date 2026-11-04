@@ -86,3 +86,33 @@ Navigate to AIM > users>create user
 
 A VPC (Virtual Private Cloud) is a securely isolated section of a cloud provider’s network where you can launch and manage resources like servers and databases within your own private virtual network. 
 
+REGION: EUROPE(STOCKHOLM)
+
+VPC NAME : PROJECT-SPIRIT
+
+Availability zone:
+
+Availability Zones are distinct, physically separated data centers within a cloud region that provide redundancy and high availability by ensuring your applications remain operational even if one zone fails. For this project, two availability zones would be required for fault tolerance and high availability.
+
+AVAILABILITY ZONES : FIRST : eun1-az1 (eu-north-1a) SECOND : eun1-az2 (eu-north-1b)
+
+### SUBNETS
+A subnet (subnetwork) is a smaller, logical segment of a network within a VPC that helps organize and control how resources communicate with each other. 
+
+2 PUBLIC FOR COMMUNICATING WITH THE INTERNET 
+4 PRIVATE FOR isolating resources APP+ DATABASE from public access for enhanced security.
+
+NAT GATEWAY : In a VPC, a NAT Gateway acts as a bridge that lets private subnet resources like databases initiate outbound connections to the internet while keeping them unreachable from the public internet.
+
+
+
+<img width="2522" height="935" alt="AdobeExpressPhotos_a587ba54f24c40f2a4ebba1a6a2f4f3c_CopyEdited" src="https://github.com/user-attachments/assets/26b6bc88-fa09-49f0-96cd-7429b6189657" />
+
+
+<img width="2543" height="933" alt="AdobeExpressPhotos_f21b029aace743a2b37fdddbe8c681ba_CopyEdited" src="https://github.com/user-attachments/assets/10c33f26-0847-4059-a7d0-5e07077b9c68" />
+
+
+<img width="2524" height="928" alt="AdobeExpressPhotos_cceac0fcba9242959e477ce9baea6fd4_CopyEdited" src="https://github.com/user-attachments/assets/f7cdd99b-e309-4831-b4f8-b8873cd9b9bd" />
+
+
+
