@@ -335,6 +335,15 @@ create a directory for the backend Application : mkdir -p /opt/project-spirit/ba
 on s3 the backend code is located at :   s3://projectspirit-bucket/PROJECT-SPIRIT-main/PROJECT-SPIRIT-main/backend/
 
 Download files : aws s3 cp s3://projectspirit-bucket/PROJECT-SPIRIT-main/PROJECT-SPIRIT-main/backend/ /opt/project-spirit/backend/ --recursive
+ 
+Create a virtual environment to install dependencies: python3 -m venv /opt/project-spirit/venv
+Activate : source /opt/project-spirit/venv/bin/activate..
+
+Install dependencies : pip install -r /opt/project-spirit/backend/requirements.txt
 
 
+<img width="2544" height="985" alt="AdobeExpressPhotos_411ad5a283cf4fc3b10ec471406d0279_CopyEdited" src="https://github.com/user-attachments/assets/1e6e82c5-7d29-4458-bbf7-cddc75f1c74e" />
 
+<img width="2545" height="978" alt="AdobeExpressPhotos_a4b7310e3abf4938acdd9a2a851c43b9_CopyEdited" src="https://github.com/user-attachments/assets/3cd02533-d5c7-453b-aeb9-8836cc8b1304" />
+
+<img width="2545" height="345" alt="AdobeExpressPhotos_65c147fea3d14e44ada80a56d856f0ac_CopyEdited" src="https://github.com/user-attachments/assets/186d8e62-2d87-40c7-b7f2-9d50ea63c80f" />
