@@ -289,8 +289,7 @@ Sudo su to run as the root user.
 As the root user, the next step is to install mysql.
 
 Follsow the steps on github link below to install mysql. 
-
-https://github.com/Harmonygrams/amazon-linux-2023-mysql-installation-guide?ref=peerlist&utm_source=chatgpt.com
+https://github.com/Harmonygrams/amazon-linux-2023-mysql-installation-guide/blob/main/ReadMe.md
 
 <img width="2544" height="971" alt="AdobeExpressPhotos_bb7e3a139baf4d3d9e0cf89b2ed7db9a_CopyEdited" src="https://github.com/user-attachments/assets/680b5883-5368-42cc-868c-0c757955bbf1" />
 
