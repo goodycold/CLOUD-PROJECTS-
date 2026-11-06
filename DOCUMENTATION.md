@@ -298,3 +298,5 @@ https://github.com/Harmonygrams/amazon-linux-2023-mysql-installation-guide/blob/
 
 <img width="2545" height="649" alt="AdobeExpressPhotos_0349f9616a714f579eb020d8735d30f1_CopyEdited" src="https://github.com/user-attachments/assets/d47cca59-490a-406b-9657-16798152a9a4" />
 
+###  After installation , the next step is to connect to the database.
+
