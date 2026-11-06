@@ -370,14 +370,48 @@ Start the backend application
 
 cd /opt/project-spirit/backend
 
+gunicorn --workers 2 --bind 0.0.0.0:5000 app:app
 
-
-
-
-
+curl http://127.0.0.1:5000/health
 
 
 <img width="2543" height="325" alt="AdobeExpressPhotos_ff4ed99bd3dc493abe34a5cf367ea294_CopyEdited" src="https://github.com/user-attachments/assets/a63df020-9d13-4085-a654-db07d76ea297" />
 
 <img width="2545" height="511" alt="AdobeExpressPhotos_c2828d599dad4fae8ff46cd0216dba8e_CopyEdited" src="https://github.com/user-attachments/assets/ee9884a0-f2da-44a7-8370-c1959a4651a2" />
+
+We'll now create a systemd service so Gunicorn can run independently
+
+Create the service file
+
+nano /etc/systemd/system/project-spirit.service
+
+
+[Unit]
+Description=Project Spirit Flask Backend
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/opt/project-spirit/backend
+Environment="PATH=/opt/project-spirit/venv/bin"
+ExecStart=/opt/project-spirit/venv/bin/gunicorn --workers 2 --bind 0.0.0.0:5000 app:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+
+Then reload : systemctl daemon-reload
+
+Enable the service : systemctl enable project-spirit
+
+systemctl start project-spirit
+
+systemctl status project-spirit
+
+<img width="2545" height="956" alt="AdobeExpressPhotos_21f9f646425846f28cbae8c4c8c0b986_CopyEdited" src="https://github.com/user-attachments/assets/20774aaa-8f51-4a74-abf0-52621427e5d1" />
+
+
+
+
 
