@@ -349,6 +349,7 @@ Install dependencies : pip install -r /opt/project-spirit/backend/requirements.t
 
 <img width="2545" height="345" alt="AdobeExpressPhotos_65c147fea3d14e44ada80a56d856f0ac_CopyEdited" src="https://github.com/user-attachments/assets/186d8e62-2d87-40c7-b7f2-9d50ea63c80f" />
 
+COMMANDS 
 
 UPADATED THE database.py with the details from RDS and created a .env file for creds. 
 
@@ -359,7 +360,24 @@ cd /opt/project-spirit/backend
 python -c 'from database import get_db_connection; conn = get_db_connection(); print("Database connection successful"); conn.close()'
 
 
+python -m py_compile /opt/project-spirit/backend/app.py
+
+pip install gunicorn
+
+gunicorn --version
+
+Start the backend application
+
+cd /opt/project-spirit/backend
+
+
+
+
+
+
+
 
 <img width="2543" height="325" alt="AdobeExpressPhotos_ff4ed99bd3dc493abe34a5cf367ea294_CopyEdited" src="https://github.com/user-attachments/assets/a63df020-9d13-4085-a654-db07d76ea297" />
 
+<img width="2545" height="511" alt="AdobeExpressPhotos_c2828d599dad4fae8ff46cd0216dba8e_CopyEdited" src="https://github.com/user-attachments/assets/ee9884a0-f2da-44a7-8370-c1959a4651a2" />
 
