@@ -278,5 +278,24 @@ Instance is up and running
 
 <img width="2529" height="926" alt="AdobeExpressPhotos_ec4b53af080d452397f5be34d21653dc_CopyEdited" src="https://github.com/user-attachments/assets/2e594ab6-a30f-4cf5-b1ef-83e8aadb42b0" />
 
-CONNECTING TO INSTANCE
+### CONNECTING TO INSTANCE
+
+Sudo su to run as the root user.
+
+<img width="2545" height="1088" alt="AdobeExpressPhotos_dd8699a5966840d3a7ac30dd16018bf9_CopyEdited" src="https://github.com/user-attachments/assets/acfb0e0e-1518-47f9-8890-a49af3dbf956" />
+
+### . INSTALLING AND CONNECTING MYSQL DATABASE
+
+As the root user, the next step is to install mysql.
+
+Follsow the steps on github link below to install mysql. 
+
+https://github.com/Harmonygrams/amazon-linux-2023-mysql-installation-guide?ref=peerlist&utm_source=chatgpt.com
+
+<img width="2544" height="971" alt="AdobeExpressPhotos_bb7e3a139baf4d3d9e0cf89b2ed7db9a_CopyEdited" src="https://github.com/user-attachments/assets/680b5883-5368-42cc-868c-0c757955bbf1" />
+
+
+<img width="2545" height="987" alt="AdobeExpressPhotos_c827a2301dbd487aaa64fb466e5fa337_CopyEdited" src="https://github.com/user-attachments/assets/db1c6349-acfe-49f9-ab6b-262ab9858e00" />
+
+<img width="2545" height="649" alt="AdobeExpressPhotos_0349f9616a714f579eb020d8735d30f1_CopyEdited" src="https://github.com/user-attachments/assets/d47cca59-490a-406b-9657-16798152a9a4" />
 
