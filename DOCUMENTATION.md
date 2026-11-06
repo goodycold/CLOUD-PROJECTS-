@@ -302,3 +302,39 @@ https://github.com/Harmonygrams/amazon-linux-2023-mysql-installation-guide/blob/
 
 ###  After installation , the next step is to connect to the database.
 
+<img width="2545" height="523" alt="AdobeExpressPhotos_e2485e598d374143a0204c0ea205a243_CopyEdited" src="https://github.com/user-attachments/assets/f0ad7051-2909-43d2-a24c-591860d5865a" />
+
+### . CREATING A DATABASE ON INSTANCE CLI
+
+COMMANDS :  CREATE DATABASE project_spirit;
+
+CREATE TABLE IF NOT EXISTS records (
+    id INT NOT NULL AUTO_INCREMENT,
+    description VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
+);
+
+
+The above command created a database called project_spirit and created a table called records. 
+
+<img width="2545" height="279" alt="AdobeExpressPhotos_03bd20582aba48d5a043ec00b59887c2_CopyEdited" src="https://github.com/user-attachments/assets/219e3b64-71f3-4cf6-a5a5-6ff25808f921" />
+
+
+<img width="2542" height="824" alt="AdobeExpressPhotos_19de095b0e3a43b6a94f27e7a277cf23_CopyEdited" src="https://github.com/user-attachments/assets/416f5666-999f-493f-aa1b-37d4821a64a8" />
+
+<img width="2545" height="323" alt="AdobeExpressPhotos_b29941171cb54117a26e8034b7e0f49b_CopyEdited" src="https://github.com/user-attachments/assets/96562a67-0a11-4935-a34c-847cbd1d646c" />
+
+
+### INSTALLING AND CONFIGURING APPLICATION
+
+installing the app requirments : dnf install -y python3-pip
+
+create a directory for the backend Application : mkdir -p /opt/project-spirit/backend
+
+on s3 the backend code is located at :   s3://projectspirit-bucket/PROJECT-SPIRIT-main/PROJECT-SPIRIT-main/backend/
+
+Download files : aws s3 cp s3://projectspirit-bucket/PROJECT-SPIRIT-main/PROJECT-SPIRIT-main/backend/ /opt/project-spirit/backend/ --recursive
+
+
+
