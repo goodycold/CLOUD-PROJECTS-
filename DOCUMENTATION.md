@@ -248,3 +248,35 @@ This would be done by navigating to the location where the file located on S3 bu
 
 An EC2 instance is a virtual server in AWS that you can use to run applications, host websites, or perform computing tasks just like a physical computer.
 Navigate to EC2 > instance> launch instances > FILL the necessary details
+
+<img width="2531" height="937" alt="AdobeExpressPhotos_6fd18b2782d3479083d021510367ca59_CopyEdited" src="https://github.com/user-attachments/assets/6bd56418-9651-4700-807e-a71296ea205a" />
+
+
+<img width="2531" height="937" alt="AdobeExpressPhotos_939525ce0e7a41bd8c257ac9e5cf5d32_CopyEdited" src="https://github.com/user-attachments/assets/8b1d4faf-ddb6-4536-a636-5123f36d2c2d" />
+
+
+<img width="2540" height="941" alt="AdobeExpressPhotos_ac34db1fb0804a5699c241a5ed7f7586_CopyEdited" src="https://github.com/user-attachments/assets/4ed427e3-b8b2-4095-9555-79c99e16dd14" />
+
+
+<img width="2524" height="934" alt="AdobeExpressPhotos_bb470808a77c4ce4a8a87237026fef04_CopyEdited" src="https://github.com/user-attachments/assets/f6844f87-fa69-4900-8e0e-8b6508e7d999" />
+
+
+<img width="2522" height="607" alt="AdobeExpressPhotos_c42b1591814f415faa60d9161e405970_CopyEdited" src="https://github.com/user-attachments/assets/42734ca7-da92-4867-821f-65b1f0f8206a" />
+
+
+<img width="2536" height="932" alt="AdobeExpressPhotos_ec79dcc5d24e4cf59aa599f3d823e14b_CopyEdited" src="https://github.com/user-attachments/assets/d50189f2-14fe-40a0-960a-8baa14d6c1b6" />
+
+
+
+<img width="2522" height="926" alt="AdobeExpressPhotos_bc1d04cfb7334397ac5e0063a6a8206c_CopyEdited" src="https://github.com/user-attachments/assets/fefb53c1-9b39-4d14-a420-f0c702581e18" />
+
+Instance is up and running
+
+
+<img width="2527" height="928" alt="AdobeExpressPhotos_8d4f1de6f9c24509a8aa0c2485ade9b9_CopyEdited" src="https://github.com/user-attachments/assets/12e00272-f941-4f18-b39c-b7f04b70b947" />
+
+
+<img width="2529" height="926" alt="AdobeExpressPhotos_ec4b53af080d452397f5be34d21653dc_CopyEdited" src="https://github.com/user-attachments/assets/2e594ab6-a30f-4cf5-b1ef-83e8aadb42b0" />
+
+CONNECTING TO INSTANCE
+
