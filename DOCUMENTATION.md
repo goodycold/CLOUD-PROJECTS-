@@ -197,16 +197,18 @@ The rules are set so that only the resources running in the VPC can communicate 
 ### CREATING DATABASE
 For this project, I will be using MYSQL because it has a free tier. Search RDS> Databases> Create Database>choose MYSQL> Fill up the necessary details.
 
-<img width="2540" height="930" alt="AdobeExpressPhotos_250b7aa89e13400ba36036948bb79f68_CopyEdited" src="https://github.com/user-attachments/assets/d28fbcda-2402-44ad-8958-0c4c9fbc401e" />
+<img width="2528" height="936" alt="AdobeExpressPhotos_10cf4cce91fd4125bdf455a4f50a2b28_CopyEdited" src="https://github.com/user-attachments/assets/8a84cba4-a2da-4e69-89df-c10442b014c2" />
 
+<img width="2531" height="944" alt="AdobeExpressPhotos_65448ee642734269a1f7d58c737893e6_CopyEdited" src="https://github.com/user-attachments/assets/e3806527-7fca-47aa-81c3-5a777134a335" />
 
-<img width="2528" height="934" alt="AdobeExpressPhotos_6bb7e5ad00494b5c87ebf3a669f625fb_CopyEdited" src="https://github.com/user-attachments/assets/e7da75f4-c12f-4a49-8d80-8f82de8ce1c4" />
+<img width="2516" height="940" alt="AdobeExpressPhotos_4dbe27f17b50472d8dadf2d193bf06aa_CopyEdited" src="https://github.com/user-attachments/assets/6fed0ca3-e803-44cc-bfc2-c53cfaa688a9" />
 
-<img width="2523" height="947" alt="AdobeExpressPhotos_719ce64e23144321af108f869a8e7ff9_CopyEdited" src="https://github.com/user-attachments/assets/061cb35f-65dc-4fbf-84e6-813dc139928d" />
+<img width="2520" height="930" alt="AdobeExpressPhotos_f3f8abd97bc34a16b48c11ce73edc07b_CopyEdited" src="https://github.com/user-attachments/assets/9ef33a19-e69d-412d-9fa2-65b1567ac0d2" />
 
-<img width="2521" height="930" alt="AdobeExpressPhotos_1219c90d689344ed9ee921c4fae30827_CopyEdited" src="https://github.com/user-attachments/assets/dd00712e-7005-4c7a-9a0f-d5184f71290e" />
+<img width="2519" height="934" alt="AdobeExpressPhotos_e8d594a58d7f41cc92f2a06572ed9369_CopyEdited" src="https://github.com/user-attachments/assets/76b6a9c8-7902-4d72-95e2-19b11b37de7b" />
 
-<img width="2518" height="930" alt="AdobeExpressPhotos_0d2239b60200458b935972c4c9260f7f_CopyEdited" src="https://github.com/user-attachments/assets/c3929653-5c57-43bb-ae9c-ac3462ebd1cf" />
+<img width="2523" height="924" alt="AdobeExpressPhotos_91b5e91198a04ef3b5c8235070bacbba_CopyEdited" src="https://github.com/user-attachments/assets/7db2472d-7af4-4abb-8d4e-793018859858" />
+
 
 
 ### .  CREATING SECURITY GROUP (Public facing load balancer)
